@@ -1,3 +1,3 @@
 class Restaurant < ApplicationRecord
-  has many :reviews, dependent :destroy
+  has_many :reviews
 end
